@@ -1,0 +1,6 @@
+<ul>
+  <%@files.each do |filename|%>
+    <li><a href="<%=filename%>"><%=filename%></a></li>
+  <%end%>
+  <a href="/order/<%=@other_order%>">Sort <%=@other_order%></a>
+</ul>
